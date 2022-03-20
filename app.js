@@ -27,7 +27,7 @@ function animateGroup1(){
             triggerElement: section,
             triggerHook: 0.6,
             reverse: false
-        }).setTween(animGrp1Timeline).addTo(controller).addIndicators();
+        }).setTween(animGrp1Timeline).addTo(controller);
         
         // const animGrp2Timeline = new gsap.timeline({defaults:{ duration:0.8 , ease: "back"}})
 
@@ -42,7 +42,7 @@ function animateGroup1(){
             triggerElement: buttonContainer,
             triggerHook: 0.5,
             reverse: false
-        }).setTween(animGrp1FooterTimeline).addTo(controller).addIndicators({offset: 20});
+        }).setTween(animGrp1FooterTimeline).addTo(controller);
      })
 
 }
